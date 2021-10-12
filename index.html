@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test API</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header__title" id="title">Загрузка...</h1>
+        </header>
+        <main class="content">
+            <div class="content-list" id="list">
+                <div class="card card--load"></div>
+                <div class="card card--load"></div>
+                <div class="card card--load"></div>
+                <div class="card card--load"></div>
+                <div class="card card--load"></div>
+                <div class="card card--load"></div>
+                <div class="card card--load"></div>
+                <div class="card card--load"></div>
+                <div class="card card--load"></div>
+            </div>
+        </main>
+        <a href="?page=0" title="Предыдущий пост" class="link-page link-page--prev" id="page-prev">ᐊ</a>
+        <a href="?page=1" title="Следующий пост" class="link-page link-page--next" id="page-next">ᐅ</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
